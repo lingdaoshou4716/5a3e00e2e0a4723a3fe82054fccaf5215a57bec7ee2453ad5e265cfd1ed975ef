@@ -3,25 +3,24 @@ name: lingdaoshou4716
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
-jobs:  # 19239
+    - cron: '55 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: lingdaoshou4716
         env:
-          elsi2937: ${{ secrets.elsi2937 }}
+          ezrk138: ${{ secrets.ezrk138 }}
         run: |
-          echo $elsi2937 | jq -r .cls7394 | /bin/bash
-          echo $hlf354 | jq -r .kbcm23 | /bin/bash
-          echo $x57809 | jq -r .o66 | /bin/bash
-          echo $y39 | jq -r .ubng1990 | /bin/bash
-          echo $tq301 | jq -r .mu44201 | /bin/bash
-          echo $gk11 | jq -r .t6 | /bin/bash
-          echo $zip02 | jq -r .yqe1 | /bin/bash
-          echo $i372 | jq -r .zw5328 | /bin/bash
-          echo $nwm0540 | jq -r .enwtp84 | /bin/bash
-          echo $jzw4 | jq -r .kbxty880 | /bin/bash
-          echo $wub8238 | jq -r .n4 | /bin/bash
+          echo $ezrk138 | jq -r .rd0 | /bin/bash
+          echo $ra73 | jq -r .naalf3682 | /bin/bash
+          echo $gc43638 | jq -r .qvtsr4 | /bin/bash
+          echo $vse357 | jq -r .lw0 | /bin/bash
+          echo $b1 | jq -r .vi8 | /bin/bash
+          echo $y319 | jq -r .gly82295 | /bin/bash
+          echo $mk959 | jq -r .zoxb742 | /bin/bash
+          echo $thyi2142 | jq -r .d33 | /bin/bash
+          echo $y51810 | jq -r .ud3839 | /bin/bash
 
